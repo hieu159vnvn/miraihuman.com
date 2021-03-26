@@ -1,0 +1,23 @@
+@include('layouts.language')
+@extends('layouts.index')
+
+    @section('title', __('messages.title-home'))
+    @section('description',__('messages.title-home'))
+    @section('content')
+    
+    @include('general.home-banner')
+    @include('general.home-outstanding-orders')
+    @include('general.home-orders')
+    @include('general.home-static')
+    @include('general.home-introduce')
+    @include('general.home-service')
+    @include('general.home-action')
+    @include('general.home-educate')
+    @include('general.home-file')
+    @include('general.home-feel')
+    @include('general.home-video')
+    @include('general.home-news')
+    @include('general.home-magazine')
+    @include('general.home-scholl')
+    @include('general.home-scroll')
+@endsection
